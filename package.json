@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "pm2:start": "next build && { npx -y pm2 delete justvanilla || true; } && npx -y pm2 start npm --name justvanilla -- start",
+    "pm2:stop": "npx -y pm2 delete justvanilla",
+    "pm2:logs": "npx -y pm2 logs justvanilla"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.3.0",
