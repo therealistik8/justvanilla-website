@@ -27,14 +27,14 @@ const STAFF: { group: string; members: { name: string; role: string }[] }[] = [
     group: "Management",
     members: [
       { name: "TheRealistik", role: "Server Manager" },
-      { name: "Jellycatzz3", role: "Assistant Server Manager" },
     ],
   },
   {
-    group: "Regulators",
+    group: "Lead Moderators",
     members: [
-      { name: "Azeanos", role: "Regulator" },
-      { name: "Verifigamer", role: "Regulator" },
+      { name: "Jellycatzz3", role: "Head Moderator" },
+      { name: "Azeanos", role: "Senior Moderator" },
+      { name: "Verifigamer", role: "Senior Moderator" },
     ],
   },
   {

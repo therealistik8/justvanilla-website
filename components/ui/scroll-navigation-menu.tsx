@@ -9,7 +9,7 @@ import {
   useMotionValueEvent,
   type Variants,
 } from "framer-motion";
-import { Menu, X, Vote, BookOpen, Blocks, Heart, Images, BookText, Users } from "lucide-react";
+import { Menu, X, BookOpen, Blocks, Heart, Images, BookText, Users } from "lucide-react";
 import Link from "next/link";
 
 // Official Discord mark (lucide dropped brand icons). Inherits text color.
@@ -21,7 +21,7 @@ export function DiscordIcon({ className }: { className?: string }) {
   );
 }
 
-// TODO: set the real Vote URL. `disabled` items render un-clickable (Wiki: coming soon).
+// `disabled` items render un-clickable (Wiki: coming soon).
 const MENU: {
   id: number;
   title: string;
@@ -29,7 +29,6 @@ const MENU: {
   icon: React.ReactNode;
   disabled?: boolean;
 }[] = [
-  { id: 1, title: "Vote", url: "#", icon: <Vote className="w-5 h-5" />, disabled: true },
   { id: 2, title: "Rules", url: "/rules", icon: <BookOpen className="w-5 h-5" /> },
   { id: 4, title: "Allowed Mods", url: "/allowed-mods", icon: <Blocks className="w-5 h-5" /> },
   { id: 6, title: "Gallery", url: "/gallery", icon: <Images className="w-5 h-5" /> },
