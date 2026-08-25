@@ -38,13 +38,20 @@ const STAFF: { group: string; members: { name: string; role: string }[] }[] = [
     ],
   },
   {
+    group: "Moderators",
+    members: [
+      { name: "GoalSix", role: "Moderator" },
+    ],
+  },
+  {
     group: "Helpers",
     members: [
+      { name: "Bluewhaler", role: "Helper" },
+      { name: "_Eggwan_", role: "Helper" },
       { name: "johnsondeer", role: "Helper" },
-      { name: "_R3spect", role: "Helper" },
-      { name: "Chillyinpj09", role: "Helper" },
-      { name: "GoalSix", role: "Helper" },
+      { name: "Kiki2114, role: Helper" },
       { name: "Penji_", role: "Helper" },
+      { name: "_R3spect", role: "Helper" },
     ],
   },
 ];
