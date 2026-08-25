@@ -49,7 +49,7 @@ const STAFF: { group: string; members: { name: string; role: string }[] }[] = [
       { name: "Bluewhaler", role: "Helper" },
       { name: "_Eggwan_", role: "Helper" },
       { name: "johnsondeer", role: "Helper" },
-      { name: "Kiki2114, role: Helper" },
+      { name: "Kiki2114", role: "Helper" },
       { name: "Penji_", role: "Helper" },
       { name: "_R3spect", role: "Helper" },
     ],
