@@ -35,7 +35,7 @@ const MENU: {
   { id: 7, title: "Wiki", url: "#", icon: <BookText className="w-5 h-5" />, disabled: true },
   { id: 8, title: "Staff", url: "/staff", icon: <Users className="w-5 h-5" /> },
   { id: 5, title: "Support", url: "/support", icon: <Heart className="w-5 h-5" /> },
-  { id: 3, title: "Discord", url: "https://discord.gg/uz3jfSkhK", icon: <DiscordIcon className="w-5 h-5" /> },
+  { id: 3, title: "Discord", url: "https://discord.gg/C23qXQQeYA", icon: <DiscordIcon className="w-5 h-5" /> },
 ];
 
 const extLink = (url: string) =>

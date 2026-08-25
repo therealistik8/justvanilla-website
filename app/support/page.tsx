@@ -12,8 +12,7 @@ const USES = [
   { icon: Users, title: "Upkeep", body: "Domains, tools, and the day-to-day costs of running the community." },
 ];
 
-// TODO: point this at the web shop once it's live.
-const SHOP_URL = "#";
+const SHOP_URL = "https://justvanilla.tebex.io/";
 
 export default function SupportPage() {
   return (
@@ -57,9 +56,18 @@ export default function SupportPage() {
             href={SHOP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 rounded-md bg-emerald-600 px-8 py-4 text-lg font-bold uppercase tracking-wide text-white transition-colors hover:bg-emerald-700"
+            className="group inline-flex flex-col items-center"
           >
-            <Heart className="h-5 w-5" /> Donate
+            <img
+              src="/WebStore_JustVanilla.png"
+              alt="JustVanilla Store"
+              width={344}
+              height={373}
+              className="mb-6 h-40 w-auto transition-transform group-hover:scale-105"
+            />
+            <span className="inline-flex items-center justify-center gap-2 rounded-md bg-emerald-600 px-8 py-4 text-lg font-bold uppercase tracking-wide text-white transition-colors group-hover:bg-emerald-700">
+              <Heart className="h-5 w-5" /> Donate
+            </span>
           </a>
         </div>
       </div>

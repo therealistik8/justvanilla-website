@@ -5,7 +5,7 @@ import { Copy, Check } from "lucide-react";
 import { DiscordIcon } from "./scroll-navigation-menu";
 
 const SERVER_IP = "mc.justvanilla.net";
-const DISCORD_URL = "https://discord.gg/uz3jfSkhK";
+const DISCORD_URL = "https://discord.gg/C23qXQQeYA";
 
 export function Footer() {
   const [copied, setCopied] = useState(false);

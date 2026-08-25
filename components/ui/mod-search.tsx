@@ -19,7 +19,7 @@ const ALLOWED = [
   "Lighting Mods",
   "CPS Mod",
   "font/music changes",
-  "Minimaps (strictly NO entity tracking)",
+  "Minimaps",
   "Tabby Chat",
   "NEI/TMI/JEI",
   "Sodium",

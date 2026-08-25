@@ -4,7 +4,7 @@ const FEATURES = [
   {
     icon: Sprout,
     title: "Pure Vanilla",
-    body: "No economy plugins, no custom items, no ranks for sale. Every player starts equal and earns everything in-game.",
+    body: "No economy plugins, no items for sale. Every player starts equal and earns everything in-game.",
   },
   {
     icon: Users,
