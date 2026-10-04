@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 
 const APPLY_URL =
-  "https://docs.google.com/forms/d/e/1FAIpQLScV4pafo0w-rld9ZZkSHgWAq_umVMKDrEeE4vjRFL72CcyRFg/viewform?usp=dialog";
+  "https://appy.bot/apply/cmulqa4te000djq04kz47bwdc";
 
 // Avatars live in public/staff/<username>.png; members without one fall back to initials.
 const staffDir = path.join(process.cwd(), "public", "staff");
@@ -21,11 +21,6 @@ const STAFF: { group: string; members: { name: string; role: string }[] }[] = [
     members: [
       { name: "SirV8", role: "Owner" },
       { name: "AngelClicker_", role: "JustVanilla Overseer" },
-    ],
-  },
-  {
-    group: "Management",
-    members: [
       { name: "TheRealistik", role: "Server Manager" },
     ],
   },
@@ -40,18 +35,17 @@ const STAFF: { group: string; members: { name: string; role: string }[] }[] = [
   {
     group: "Moderators",
     members: [
+      { name: "EggAbi", role: "Moderator" },
       { name: "GoalSix", role: "Moderator" },
     ],
   },
   {
     group: "Helpers",
     members: [
-      { name: "Bluewhaler", role: "Helper" },
-      { name: "_Eggwan_", role: "Helper" },
-      { name: "johnsondeer", role: "Helper" },
-      { name: "Kiki2114", role: "Helper" },
-      { name: "Penji_", role: "Helper" },
-      { name: "_R3spect", role: "Helper" },
+      { name: "Mushydirt95", role: "Helper" },
+      { name: "Revoltz4", role: "Helper" },
+      { name: "SkitzzFR", role: "Helper" },
+      { name: "WoofMeowImACow", role: "Helper" },
     ],
   },
 ];
